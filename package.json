@@ -1,0 +1,12 @@
+{
+  "name": "cgi-env",
+  "version": "0.0.1",
+  "description": "Convert Node HTTP requests into CGI environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Aria Stewart <aredridel@nbtsc.org>",
+  "license": "BSD"
+}
