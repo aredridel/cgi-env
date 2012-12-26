@@ -20,7 +20,7 @@ module.exports = {
 
         if ('content-length' in req.headers) env.CONTENT_LENGTH = req.headers['content-length'];
         if ('content-type' in req.headers) env.CONTENT_TYPE = req.headers['content-type'];
-        if ('authorization' in req.headers) env.AUTH_TYPE = req.headers.authorization.split(/ /)[0];
+        if ('authorization' in req.headers) env.AUTH_TYPE = req.headers.authorization.split(' ')[0];
 
         return env;
     }
